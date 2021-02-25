@@ -75,6 +75,5 @@ public class StepDefinition {
                 .body("Year", notNullValue())
                 .body("Released", notNullValue())
                 .log().all();
-        System.out.println("asdf");
     }
 }
